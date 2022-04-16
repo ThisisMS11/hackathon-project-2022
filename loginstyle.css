@@ -1,0 +1,63 @@
+body,html{
+    overflow-y: hidden;
+}
+.login-outer-container{
+    /* border: solid 2px black; */
+    height: 100vh;
+}
+.login-outer-container::before{
+    content: " ";
+    position: absolute;
+    background:url('/loginpage/image/background.jpg') no-repeat center center/cover;
+    opacity: 1;
+    /* filter: blur(5px); */
+    filter: brightness(55%);
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+}
+.login-inner-container{
+    /* border: solid 2px red; */
+    height: 500px;
+    width: 500px;
+}
+.login-heading{
+    /* border: solid 2px black; */
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    height: 150px;
+}
+.input-container{
+    /* border: solid 2px rgb(200, 1, 255); */
+    
+}
+
+/* css for the form */
+form{
+    /* border: solid 2px rgb(255, 47, 47); */
+    height: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+form input{
+    text-align: center;
+    font-size:20px;
+    /* border: solid 2px grey; */
+    width:400px;
+    border-radius:8px;
+    height:50px;
+}
+.btn{
+    width:200px;
+    /* border: none; */
+    border-radius:15px;
+    font-size: 25px;
+    height:40px;
+}
+.btn:hover{
+    background:black;
+    color: white;
+}

@@ -1,0 +1,72 @@
+html
+    head
+        title car website
+    link(rel="stylesheet", href="../homepage/hp-style.css")
+
+    body
+        #sidebar 
+        div.outermost-container
+            nav.navbar
+                div.logo
+                    img(src="./images/logo.png", alt="image not found").logoimage
+                div.nav-options.flexclass
+                    div.account
+                    div.side-menu#side-menu Menu
+            div.corosuel-outer-container
+                div.corosuel-inner-container
+                    img(src="./images/modelS.png", alt="image not found").image#mainimage
+                    a(href="../modelx/modelx-index.html").flexclass#linktopage Know More
+                div.card-container
+                    .card#card1 
+                        img(src="./images/modelS.png", alt="").card-image
+                        div.nameofthing.flexclass ModelS
+                    .card#card2
+                        img(src="./images/modelx.png", alt="").card-image
+                        div.nameofthing.flexclass ModelY
+                    .card#card3
+                        img(src="./images/modely.png", alt="").card-image
+                        div.nameofthing.flexclass ModelX
+                    .card#card4
+                        img(src="./images/solar-panels.png", alt="").card-image
+                        div.nameofthing.flexclass Solar Panels
+                    .card#card5
+                        img(src="./images/solar-roof.png", alt="").card-image
+                        div.nameofthing.flexclass Solar Roofs
+        .feature-container
+            .feature-headline.flexclass Tesla Features For Future
+
+            .feature-inner-container
+                .feature-image-container
+                    img(src="./images/car-inside.png", alt="")
+                .feature-text-container.flexclass
+                    .bold-heading Stay Connected
+                    .light-text Instantly connect with multi-device Bluetooth, or fast charge devices with wireless and 36-watt USB-C charging.
+
+            .feature-inner-container
+                .feature-text-container.flexclass
+                    .bold-heading Immersive Sound
+                    .light-text A 22-speaker, 960-watt audio system with Active Road Noise Reduction offers immersive listening and studio-grade sound quality.
+
+                .feature-image-container
+                    img(src="./images/car-sound-effect.png", alt="")
+
+            .feature-inner-container
+                .feature-image-container
+                    img(src="./images/extra-room.png", alt="")
+                .feature-text-container.flexclass
+                    .bold-heading Room for Everything
+                    .light-text With front and rear trunks and fold-flat seats you can fit your bike without taking the wheel off—and your luggage too.
+
+        div.feature-headline.screen-headline A Screen For Joy
+        div.video-player
+            video(width="100%"  loop autoplay="true")
+                source(src="../homepage/videos/video1.mp4", type="video/mp4")
+
+        footer.flexclass copyright &copy Rights Reserved 2022-23
+
+        
+        
+        
+        
+        
+        script(src="hp-index.js") 
